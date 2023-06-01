@@ -1,0 +1,125 @@
+Microsoft Windows [Version 10.0.22621.1702]
+(c) Microsoft Corporation. Alle Rechte vorbehalten.
+
+C:\Users\Dennis>cd C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git init main
+Initialized empty Git repository in C:/Users/Dennis/OneDrive/Dokumente/03_Master BAOR/05_Kurse/07_Zusätzliche Leistungen/03_Hands-on Machine Learning/04_Credit Data/main/.git/
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git remote add origin https://github.com/dennismgoetz/HoML---Credit-Data.git
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git remote add origin https://github.com/dennismgoetz/HoML---Credit-Data.git
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git init -b main
+Initialized empty Git repository in C:/Users/Dennis/OneDrive/Dokumente/03_Master BAOR/05_Kurse/07_Zusätzliche Leistungen/03_Hands-on Machine Learning/04_Credit Data/.git/
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Checklist.ipynb
+        Data Understanding.ipynb
+        Machine Learning Project Checklist.pdf
+        data_values.xlsx
+        data_values_edited.xlsx
+        german.data
+        german.data-numeric
+        german.data-numeric.csv
+        german.doc
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git add .
+warning: in the working copy of 'Checklist.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Data Understanding.ipynb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'german.data', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'german.data-numeric', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'german.doc', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git commit -m "my first commit"
+[main (root-commit) 82bd81a] my first commit
+ 9 files changed, 4503 insertions(+)
+ create mode 100644 Checklist.ipynb
+ create mode 100644 Data Understanding.ipynb
+ create mode 100644 Machine Learning Project Checklist.pdf
+ create mode 100644 data_values.xlsx
+ create mode 100644 data_values_edited.xlsx
+ create mode 100644 german.data
+ create mode 100644 german.data-numeric
+ create mode 100644 german.data-numeric.csv
+ create mode 100644 german.doc
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git remote add origin https://github.com/dennismgoetz/HoML---Credit-Data.git
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git remote -v
+origin  https://github.com/dennismgoetz/HoML---Credit-Data.git (fetch)
+origin  https://github.com/dennismgoetz/HoML---Credit-Data.git (push)
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git push origin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git push origin main -f
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 668.56 KiB | 5.76 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dennismgoetz/HoML---Credit-Data.git
+ + 9198b24...82bd81a main -> main (forced update)
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>cd C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Data Understanding.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git add Data Understanding.
+fatal: pathspec 'Data' did not match any files
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git add Data Understanding.ipynb
+fatal: pathspec 'Data' did not match any files
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git add "Data Understanding.ipynb"
+warning: in the working copy of 'Data Understanding.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Data Understanding.ipynb
+
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git commit -m "my second commit"
+[main 3f268ad] my second commit
+ 1 file changed, 17 insertions(+)
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 364 bytes | 182.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/dennismgoetz/HoML---Credit-Data.git
+   82bd81a..3f268ad  main -> main
+
+C:\Users\Dennis\OneDrive\Dokumente\03_Master BAOR\05_Kurse\07_Zusätzliche Leistungen\03_Hands-on Machine Learning\04_Credit Data>
