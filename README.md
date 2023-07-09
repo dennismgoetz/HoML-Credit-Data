@@ -1,4 +1,4 @@
-# HoML---Credit-Data
+# HoML-Credit-Data
 The objective of this project was to ```determine bad vs. good credit rating``` with different ML models.
 
 ## Project Description
