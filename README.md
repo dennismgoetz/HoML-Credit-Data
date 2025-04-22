@@ -27,9 +27,9 @@ Please install the environment.yml file as follows:
 conda env create -n ENVIRONMENTNAME -f environment.yml
 ```
 It is important to run all notebooks in following order (to access the variables saved in the Jupyter Notebook kernel):
-- Data_Understanding
-- Data_Preparation
-- Modelling
+- Data_Understanding.ipynb
+- Data_Preparation.ipynb
+- Modelling.ipynb
 
 ## Team Members
 - [Dennis Götz](https://github.com/dennismgoetz)
